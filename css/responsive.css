@@ -1,0 +1,75 @@
+/*=====Responsive Css Bellow=======*/
+
+@media screen and (max-width:576px){
+    
+    .header-main {
+        flex-direction: column;
+       
+    }
+    .logo a {
+        font-size: 20px;
+        gap: 14px;
+    }
+    .menus ul a {
+        color: #3A3A3A;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-text h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .header-main {
+        padding: 20px 0px;
+    }
+    .banner-text p {
+        text-align: center;
+        padding: 20px 0px;
+        font-weight: 400;
+    }
+    .btn-primery {
+        padding: 12px 22px;
+    }
+    .banner-img {
+      border: none;
+      margin-top: 20px;
+    }
+    .banner-img img{
+        width: 400px;
+    }
+    .sponser-img {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .sponser-img img {
+        padding: 20px;
+    }
+    .collection-card {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .featured-main {
+        display: block;
+    
+    }
+    .fetured-text {
+        width: auto;
+    }
+    .fetured-text p {
+        font-weight: 400;
+        text-align: center;
+        padding: 20px;
+    }
+    .fetured-text h1 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #featured {
+        padding: 30px 0px;
+    }
+}

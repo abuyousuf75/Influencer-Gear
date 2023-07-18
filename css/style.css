@@ -139,6 +139,71 @@ a{
 .card-main p{
     color: #787578;
 }
+.see-more{
+    float: right;
+}
+.arrow{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+.arrow a{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
 
-/* =========Common Css Goes Bellow============ */
-/* =========Common Css Goes Bellow============ */
+/* =========featured Css Goes Bellow============ */
+#featured{
+    padding: 60px 0px;
+}
+.featured-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fetured-img{
+    width: 30%;
+}
+.fetured-text{
+    width: 60%;
+}
+.fetured-text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-join{
+    border-radius: 0;
+    margin-top: 20px;
+
+}
+
+/* =========footer Css Goes Bellow============ */
+#footer{
+    padding: 40px 0px;
+    background: #0A0826;
+}
+.footer-text-head{
+    text-align: center;
+    color: #fff;
+}
+.social-icons{
+    background: #787578;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:transparent;
+    color: #fff;
+    border-radius: 50%;
+    transition: all linear .3s;
+    
+}
